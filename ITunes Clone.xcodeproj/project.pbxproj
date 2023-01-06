@@ -14,6 +14,11 @@
 		58774ED22966E69100F67FB9 /* ITunes_Clone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58774ED02966E69100F67FB9 /* ITunes_Clone.xcdatamodeld */; };
 		58774ED42966E69200F67FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58774ED32966E69200F67FB9 /* Assets.xcassets */; };
 		58774ED72966E69200F67FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58774ED52966E69200F67FB9 /* LaunchScreen.storyboard */; };
+		58774EE12966EF0700F67FB9 /* LocalDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58774EE02966EF0700F67FB9 /* LocalDataService.swift */; };
+		58774EE32966EFFF00F67FB9 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58774EE22966EFFF00F67FB9 /* SongViewController.swift */; };
+		58774EE52966F00800F67FB9 /* ServerResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58774EE42966F00800F67FB9 /* ServerResponce.swift */; };
+		58774EE72966F01A00F67FB9 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58774EE62966F01A00F67FB9 /* NetworkController.swift */; };
+		58774EE92966F02400F67FB9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58774EE82966F02400F67FB9 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		58774ED32966E69200F67FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58774ED62966E69200F67FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58774ED82966E69200F67FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58774EE02966EF0700F67FB9 /* LocalDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataService.swift; sourceTree = "<group>"; };
+		58774EE22966EFFF00F67FB9 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		58774EE42966F00800F67FB9 /* ServerResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponce.swift; sourceTree = "<group>"; };
+		58774EE62966F01A00F67FB9 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		58774EE82966F02400F67FB9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 				58774ED52966E69200F67FB9 /* LaunchScreen.storyboard */,
 				58774ED82966E69200F67FB9 /* Info.plist */,
 				58774ED02966E69100F67FB9 /* ITunes_Clone.xcdatamodeld */,
+				58774EE02966EF0700F67FB9 /* LocalDataService.swift */,
+				58774EE22966EFFF00F67FB9 /* SongViewController.swift */,
+				58774EE42966F00800F67FB9 /* ServerResponce.swift */,
+				58774EE62966F01A00F67FB9 /* NetworkController.swift */,
+				58774EE82966F02400F67FB9 /* MainViewController.swift */,
 			);
 			path = "ITunes Clone";
 			sourceTree = "<group>";
@@ -141,8 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58774EE72966F01A00F67FB9 /* NetworkController.swift in Sources */,
 				58774ECC2966E69100F67FB9 /* ViewController.swift in Sources */,
 				58774ED22966E69100F67FB9 /* ITunes_Clone.xcdatamodeld in Sources */,
+				58774EE12966EF0700F67FB9 /* LocalDataService.swift in Sources */,
+				58774EE52966F00800F67FB9 /* ServerResponce.swift in Sources */,
+				58774EE32966EFFF00F67FB9 /* SongViewController.swift in Sources */,
+				58774EE92966F02400F67FB9 /* MainViewController.swift in Sources */,
 				58774EC82966E69100F67FB9 /* AppDelegate.swift in Sources */,
 				58774ECA2966E69100F67FB9 /* SceneDelegate.swift in Sources */,
 			);
